@@ -57,7 +57,7 @@ $port = 8080;
 $__server_listening = true;
 
 error_reporting(E_ALL);
-set_time_limit(0);
+set_time_limit(240);
 ob_implicit_flush();
 declare(ticks = 1);
 
