@@ -1,6 +1,6 @@
 <?php
 
-require_once("SocketServer.class2.php"); // Include the File
+require_once("SocketServer2.class.php"); // Include the File
 $server = new SocketServer("172.30.111.186" , 8080); // Create a Server binding to the given ip address and listen to port 31337 for connections
 $server->max_clients = 10; // Allow no more than 10 people to connect at a time
 $server->hook("CONNECT","handle_connect"); // Run handle_connect every time someone connects
